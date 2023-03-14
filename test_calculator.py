@@ -11,3 +11,6 @@ class TestCalculator:
         
     def test_multiplication(self):
         assert 100 == calculator.multiply(10, 10)
+        
+    def multiply(first_term, second_term):
+        return first_term * second_term
